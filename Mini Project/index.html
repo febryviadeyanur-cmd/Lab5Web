@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Nilai Mahasiswa</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f8; display: flex; justify-content: center; padding: 30px 15px; }
+    .kartu { background: #fff; padding: 24px; border-radius: 10px; width: 100%; max-width: 380px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    h1 { font-size: 1.3rem; margin-top: 0; }
+    label { display: block; margin: 12px 0 4px; font-weight: bold; }
+    input { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #bbb; border-radius: 6px; }
+    button { margin-top: 16px; padding: 10px 14px; border: 0; border-radius: 6px; background: #2563eb; color: #fff; cursor: pointer; }
+    button.reset { background: #6b7280; margin-left: 6px; }
+    #error { color: #c62828; margin-top: 12px; }
+    #hasil { margin-top: 16px; padding: 12px; border-radius: 6px; background: #eef6ff; display: none; }
+    .lulus { color: #2e7d32; font-weight: bold; }
+    .gagal { color: #c62828; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <div class="kartu">
+    <h1>Kalkulator Nilai Mahasiswa</h1>
+
+    <label for="tugas">Nilai Tugas (0–100)</label>
+    <input type="number" id="tugas" min="0" max="100" step="any">
+
+    <label for="uts">Nilai UTS (0–100)</label>
+    <input type="number" id="uts" min="0" max="100" step="any">
+
+    <label for="uas">Nilai UAS (0–100)</label>
+    <input type="number" id="uas" min="0" max="100" step="any">
+
+    <button type="button" onclick="prosesNilai()">Hitung</button>
+    <button type="button" class="reset" onclick="resetForm()">Reset</button>
+
+    <p id="error"></p>
+
+    <div id="hasil">
+      <p>Nilai akhir: <span id="outAkhir"></span></p>
+      <p>Predikat: <span id="outPredikat"></span></p>
+      <p>Status: <span id="outStatus"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

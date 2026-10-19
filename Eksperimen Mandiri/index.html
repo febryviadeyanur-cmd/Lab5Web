@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eksperimen Mandiri JavaScript</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 0 15px; }
+    section { border: 1px solid #ccc; border-radius: 8px; padding: 14px; margin-bottom: 16px; }
+    h2 { font-size: 1.05rem; margin-top: 0; }
+    .error { color: #c62828; }
+  </style>
+</head>
+<body>
+  <h1>Eksperimen Mandiri</h1>
+
+  <!-- Eksperimen 1 -->
+  <section>
+    <h2>1. Operasi dasar dari prompt</h2>
+    <button type="button" onclick="operasiDariPrompt()">Mulai (cek Console)</button>
+  </section>
+
+  <!-- Eksperimen 2 -->
+  <section>
+    <h2>2. Tabel perkalian 7</h2>
+    <button type="button" onclick="tabelPerkalian(7)">Tampilkan</button>
+    <ul id="tabel"></ul>
+  </section>
+
+  <!-- Eksperimen 3 -->
+  <section>
+    <h2>3. cekGenap(angka)</h2>
+    <input type="number" id="angkaGenap" step="1">
+    <button type="button" onclick="tesCekGenap()">Cek</button>
+    <p id="hasilGenap"></p>
+  </section>
+
+  <!-- Eksperimen 4 -->
+  <section>
+    <h2>4. Validasi kolom tidak boleh kosong</h2>
+    <label for="nama">Nama:</label>
+    <input type="text" id="nama">
+    <label for="kelas">Kelas:</label>
+    <input type="text" id="kelas">
+    <button type="button" onclick="validasiForm()">Kirim</button>
+    <p id="hasilForm"></p>
+  </section>
+
+  <!-- Eksperimen 5 -->
+  <section>
+    <h2>5. Menu makanan (ditambah)</h2>
+    <label><input type="checkbox" class="menu" value="5000"> Ayam Goreng — Rp5.000</label><br>
+    <label><input type="checkbox" class="menu" value="500"> Tempe — Rp500</label><br>
+    <label><input type="checkbox" class="menu" value="2500"> Telur Dadar — Rp2.500</label><br>
+    <label><input type="checkbox" class="menu" value="3000"> Tahu Goreng — Rp3.000</label><br>
+    <label><input type="checkbox" class="menu" value="4000"> Nasi Putih — Rp4.000</label><br>
+    <p>Total: Rp<span id="total">0</span></p>
+  </section>
+
+  <!-- Eksperimen 6 -->
+  <section>
+    <h2>6. Sembunyikan / tampilkan elemen</h2>
+    <button type="button" onclick="toggleElemen()">Sembunyikan/Tampilkan</button>
+    <p id="elemenToggle">Aku bisa disembunyikan!</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
