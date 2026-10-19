@@ -1,9 +1,13 @@
 # Lab5Web — Praktikum 5: JavaScript Dasar dan Manipulasi HTML
 
 **Nama**        : Febryvia Deya Nur Havidtar Murti Aqsa 
-**NIM**         : 312510194                             
-**Kelas**       : I251B                                 
-**Mata Kuliah** : Pemrograman Web                       
+
+**NIM**         : 312510194             
+
+**Kelas**       : I251B 
+
+**Mata Kuliah** : Pemrograman Web        
+
 **Pertemuan**   : 6                                     
 
 ## A. Tujuan Praktikum
@@ -77,9 +81,9 @@ Latihan ini menggunakan `textContent` untuk mengubah teks pada elemen HTML dan `
 
 **Hasil:** teks dapat ditampilkan pada halaman web, sedangkan pesan `console.log()` dapat dilihat melalui Console.
 
-![alt text](<Screenshot 2026-10-19 145156.png>) 
+<img width="959" height="470" alt="Screenshot 2026-10-19 145156" src="https://github.com/user-attachments/assets/c860d437-e6a4-46bf-8430-ce3fe088e3fd" />
 
-![alt text](<Screenshot 2026-10-19 145432.png>)
+<img width="959" height="480" alt="Screenshot 2026-10-19 145432" src="https://github.com/user-attachments/assets/3ff9407c-1ed1-462e-b5b0-f9eb66e13f7c" />
 
 ### Latihan 2 — Alert dan Prompt
 
@@ -87,9 +91,9 @@ Latihan ini menggunakan `prompt()` untuk meminta nama pengguna dan `alert()` unt
 
 **Hasil pengujian:**
 
-![alt text](<Screenshot 2026-10-19 150638.png>) 
+<img width="959" height="480" alt="Screenshot 2026-10-19 150638" src="https://github.com/user-attachments/assets/14c77e91-2722-418e-98b0-42111ccddcdd" />
 
-![alt text](<Screenshot 2026-10-19 150651.png>)
+<img width="959" height="479" alt="Screenshot 2026-10-19 150651" src="https://github.com/user-attachments/assets/aa5a82f5-4ddd-4ed1-b72d-736d5c57b2fc" />
 
 - Jika nama diisi, program menampilkan sapaan.
 - Jika pengguna menekan Cancel atau memasukkan nama kosong, program menampilkan pesan bahwa nama belum diisi.
@@ -100,9 +104,7 @@ Latihan ini menggunakan function `hitung(a, b)` untuk melakukan operasi penjumla
 
 Contoh pengujian menggunakan `hitung(10, 3)` menghasilkan penjumlahan 13, pengurangan 7, perkalian 30, pembagian 3,3333, dan modulus 1.
 
-**Dokumentasi:** simpan screenshot di folder `screenshots` dengan nama `latihan3.png`.
-
-![alt text](<Screenshot 2026-10-19 150927.png>)
+<img width="959" height="481" alt="Screenshot 2026-10-19 150927" src="https://github.com/user-attachments/assets/abf30511-989a-4629-a314-ea98fe008cc7" />
 
 ### Latihan 4 — Seleksi Kondisi `if-else`
 
@@ -110,31 +112,29 @@ Latihan ini menggunakan `if-else` untuk menentukan status kelulusan berdasarkan 
 
 **Hasil:** nilai 60 ke atas dinyatakan lulus, sedangkan nilai di bawah 60 dinyatakan belum lulus. Input yang tidak valid perlu ditangani sesuai validasi program.
 
-![alt text](<Screenshot 2026-10-19 151120.png>) 
+<img width="959" height="482" alt="Screenshot 2026-10-19 151120" src="https://github.com/user-attachments/assets/85d7ca67-2457-44cf-981c-be36c691505e" />
+ 
+<img width="959" height="476" alt="Screenshot 2026-10-19 151130" src="https://github.com/user-attachments/assets/644493eb-2d52-400f-a888-87f966075400" />
 
-![alt text](<Screenshot 2026-10-19 151130.png>) 
+<img width="959" height="482" alt="Screenshot 2026-10-19 151139" src="https://github.com/user-attachments/assets/de7ead2d-331a-4bb1-a816-37a12e6a828f" />
 
-![alt text](<Screenshot 2026-10-19 151139.png>) 
+<img width="959" height="482" alt="Screenshot 2026-10-19 151205" src="https://github.com/user-attachments/assets/622dd345-e7e5-499c-8613-975512f33434" />
 
-![alt text](<Screenshot 2026-10-19 151205.png>) 
-
-![alt text](<Screenshot 2026-10-19 151215.png>)
+<img width="959" height="481" alt="Screenshot 2026-10-19 151215" src="https://github.com/user-attachments/assets/533e6341-0198-4673-91dc-46e76cbdd27b" />
 
 ### Latihan 5 — Seleksi Kondisi `switch`
 
 Latihan ini menggunakan `switch` untuk mengubah angka 1–5 menjadi nama bilangan. Jika angka tidak sesuai pilihan, program menampilkan pesan bahwa pilihan tidak tersedia.
 
-![alt text](<Screenshot 2026-10-19 151352.png>) 
+<img width="959" height="470" alt="Screenshot 2026-10-19 151352" src="https://github.com/user-attachments/assets/8164b4e6-8356-4fdf-b62f-bb180a4903a4" />
 
-![alt text](<Screenshot 2026-10-19 151402.png>) 
+<img width="959" height="478" alt="Screenshot 2026-10-19 151402" src="https://github.com/user-attachments/assets/95add957-4ca7-43f2-955a-a1a987c12b15" />
 
-![alt text](<Screenshot 2026-10-19 151411.png>) 
+<img width="959" height="478" alt="Screenshot 2026-10-19 151411" src="https://github.com/user-attachments/assets/b4b9da98-72df-49d9-8fd5-1b495d6b05be" />
 
-![alt text](<Screenshot 2026-10-19 151434.png>) 
+<img width="959" height="476" alt="Screenshot 2026-10-19 151434" src="https://github.com/user-attachments/assets/47b5f8a3-83ee-47ae-af60-be1b7da67ba1" />
 
-![alt text](<Screenshot 2026-10-19 151444.png>)
-
-### Latihan 6 — Form Bilangan Genap atau Ganjil
+<img width="959" height="479" alt="Screenshot 2026-10-19 151444" src="https://github.com/user-attachments/assets/7be98c63-80db-453a-8fb7-b369b6fdac94" />
 
 ### Latihan 6 — Pemeriksa Bilangan Genap atau Ganjil
 
@@ -149,17 +149,17 @@ Latihan ini menggunakan form HTML untuk menerima input angka dari pengguna. Java
 | -1 | Bilangan negatif ganjil |
 | -2 | Bilangan negatif genap |
 
-![alt text](<Screenshot 2026-10-19 152204.png>) 
+<img width="959" height="476" alt="Screenshot 2026-10-19 151825" src="https://github.com/user-attachments/assets/8cadb9eb-142b-4033-9ef3-5b9c3f8f42c9" />
 
-![alt text](<Screenshot 2026-10-19 151825.png>) 
+<img width="959" height="482" alt="Screenshot 2026-10-19 152054" src="https://github.com/user-attachments/assets/4ab822e3-5031-46e2-bc0c-53664fef959d" />
 
-![alt text](<Screenshot 2026-10-19 152054.png>) 
+<img width="959" height="483" alt="Screenshot 2026-10-19 152115" src="https://github.com/user-attachments/assets/82b304d8-1a20-411c-8721-6f99d4b68e74" />
 
-![alt text](<Screenshot 2026-10-19 152115.png>) 
+<img width="959" height="482" alt="Screenshot 2026-10-19 152136" src="https://github.com/user-attachments/assets/835c9586-ae4d-404e-bafc-eb9e4b8a3aa8" />
+ 
+<img width="959" height="478" alt="Screenshot 2026-10-19 152152" src="https://github.com/user-attachments/assets/165841b1-0450-401d-a073-63ff54bf570b" />
 
-![alt text](<Screenshot 2026-10-19 152136.png>) 
-
-![alt text](<Screenshot 2026-10-19 152152.png>)
+<img width="959" height="485" alt="Screenshot 2026-10-19 152204" src="https://github.com/user-attachments/assets/718403e6-fa3e-4772-9644-4795d0aa18c8" />
 
 ### Latihan 7 — Mengubah Warna Halaman
 
@@ -167,11 +167,11 @@ Latihan ini menggunakan function `ubahWarnaLatar(warna)` untuk mengubah warna la
 
 **Hasil:** warna latar belakang halaman berubah sesuai pilihan pengguna.
 
-![alt text](<Screenshot 2026-10-19 152853.png>) 
+<img width="959" height="482" alt="Screenshot 2026-10-19 152853" src="https://github.com/user-attachments/assets/9f96aee3-3de5-4c08-b1f6-e51c8f800c38" />
 
-![alt text](<Screenshot 2026-10-19 152903.png>) 
+<img width="959" height="482" alt="Screenshot 2026-10-19 152903" src="https://github.com/user-attachments/assets/290fff30-b5bc-434e-a691-3211c9e95165" />
 
-![alt text](<Screenshot 2026-10-19 152915.png>)
+<img width="959" height="478" alt="Screenshot 2026-10-19 152915" src="https://github.com/user-attachments/assets/86482c65-a949-4e07-9841-e38d6fcaedb0" />
 
 ### Latihan 8 — DOM dan Checkbox Menu Makanan
 
@@ -179,13 +179,13 @@ Latihan ini menggunakan DOM dan event `change` untuk menghitung total harga menu
 
 **Hasil:** total harga diperbarui ketika pengguna mencentang atau menghapus centang menu.
 
-![alt text](<Screenshot 2026-10-19 153121.png>) 
+<img width="959" height="479" alt="Screenshot 2026-10-19 153121" src="https://github.com/user-attachments/assets/a895e045-9c65-4b51-9ac4-7ab47caaa49b" />
 
-![alt text](<Screenshot 2026-10-19 153132.png>) 
+<img width="959" height="477" alt="Screenshot 2026-10-19 153132" src="https://github.com/user-attachments/assets/66593703-da22-470e-8039-0e03a42a10a9" />
 
-![alt text](<Screenshot 2026-10-19 153146.png>) 
+<img width="959" height="481" alt="Screenshot 2026-10-19 153146" src="https://github.com/user-attachments/assets/c1b77952-b5bb-4c9b-b095-70f66e5bd1b5" />
 
-![alt text](<Screenshot 2026-10-19 153156.png>)
+<img width="959" height="479" alt="Screenshot 2026-10-19 153156" src="https://github.com/user-attachments/assets/cad5ea43-2097-4a9b-964d-6eae0fc1016d" />
 
 ---
 
@@ -206,7 +206,7 @@ Rumus:
 ```text
 Nilai Akhir = (Tugas × 0,30) + (UTS × 0,30) + (UAS × 0,40)
 ```
-![alt text](<Screenshot 2026-10-19 173001.png>)
+<img width="959" height="503" alt="Screenshot 2026-10-19 172948" src="https://github.com/user-attachments/assets/5f734672-d6ed-4e15-9772-cd3d16f90d4e" />
 
 ### 2. Kriteria Predikat dan Kelulusan
 
@@ -220,15 +220,15 @@ Nilai Akhir = (Tugas × 0,30) + (UTS × 0,30) + (UAS × 0,40)
 
 Nilai akhir minimal 60 dinyatakan **Lulus**, sedangkan nilai di bawah 60 dinyatakan **Belum lulus**.
 
-![alt text](<Screenshot 2026-10-19 173009-2.png>)
+<img width="957" height="501" alt="Screenshot 2026-10-19 173009" src="https://github.com/user-attachments/assets/47796192-85af-4ce2-96e7-f70fa8df3057" />
 
-![alt text](<Screenshot 2026-10-19 173021-2.png>)
+<img width="959" height="503" alt="Screenshot 2026-10-19 173021" src="https://github.com/user-attachments/assets/afe838ef-e7fb-42a1-a3d4-c1d43e9eddc2" />
 
-![alt text](<Screenshot 2026-10-19 185219.png>)
+<img width="959" height="500" alt="Screenshot 2026-10-19 185219" src="https://github.com/user-attachments/assets/b4c4dc42-a0a6-4cb5-a860-ea6b24d0fa11" />
 
-![alt text](<Screenshot 2026-10-19 185242.png>)
+<img width="959" height="502" alt="Screenshot 2026-10-19 185242" src="https://github.com/user-attachments/assets/a8b690db-b2cf-4f10-9ad5-a374a2214ebf" />
 
-![alt text](<Screenshot 2026-10-19 185352.png>)
+<img width="959" height="500" alt="Screenshot 2026-10-19 185352" src="https://github.com/user-attachments/assets/78ebd557-4657-45dc-a186-1bbb5929b619" />
 
 ### 3. Fungsi yang Digunakan
 
@@ -275,45 +275,45 @@ Sesuaikan daftar eksperimen di atas dengan nomor, instruksi, dan hasil pengerjaa
 
 1. Operasi dasar dari prompt
 
-![alt text](<Screenshot 2026-10-19 173619.png>) 
+<img width="959" height="501" alt="Screenshot 2026-10-19 173619" src="https://github.com/user-attachments/assets/df4b71d6-a676-4eed-b47f-86b6589e921f" />
 
-![alt text](<Screenshot 2026-10-19 173715.png>) 
+<img width="957" height="501" alt="Screenshot 2026-10-19 173715" src="https://github.com/user-attachments/assets/6caf7e26-264d-4734-82e2-800b955de17c" />
 
-![alt text](<Screenshot 2026-10-19 185858.png>) 
+<img width="958" height="503" alt="Screenshot 2026-10-19 185858" src="https://github.com/user-attachments/assets/20b5ba1e-fdcf-4c43-aff5-c52d2811a3cc" />
 
-![alt text](<Screenshot 2026-10-19 185909.png>) 
+<img width="958" height="500" alt="Screenshot 2026-10-19 185909" src="https://github.com/user-attachments/assets/91cccaa0-5c7b-4a2d-8296-9bc81a1ad8fb" />
 
-![alt text](<Screenshot 2026-10-19 190142.png>)
+<img width="959" height="503" alt="Screenshot 2026-10-19 190142" src="https://github.com/user-attachments/assets/966182ce-8553-492f-93a7-abf5b763af10" />
 
 2. Tabel perkalian 7
 
-![alt text](<Screenshot 2026-10-19 190537.png>)
+<img width="956" height="501" alt="Screenshot 2026-10-19 190537" src="https://github.com/user-attachments/assets/cf080a22-4203-4228-9fd8-eb7d9c00c079" />
 
 3. Function cek genap
 
-![alt text](<Screenshot 2026-10-19 191242.png>)
+<img width="959" height="501" alt="Screenshot 2026-10-19 191242" src="https://github.com/user-attachments/assets/8e02b26a-cf67-49e8-a1cd-00c35e1aaefe" />
 
 4. Validasi from
 
-![alt text](<Screenshot 2026-10-19 191301.png>)
+<img width="959" height="502" alt="Screenshot 2026-10-19 191301" src="https://github.com/user-attachments/assets/b20a5a55-cb32-4f96-a0b5-43f106367a3c" />
 
 5. Penambahan menu makanan
 
-![alt text](<Screenshot 2026-10-19 191551.png>) 
+<img width="959" height="497" alt="Screenshot 2026-10-19 191551" src="https://github.com/user-attachments/assets/d90748df-26a4-4d3a-ae5e-ae79a5fbb304" />
 
-![alt text](<Screenshot 2026-10-19 191604.png>) 
+<img width="959" height="502" alt="Screenshot 2026-10-19 191604" src="https://github.com/user-attachments/assets/13b01d4d-6810-4652-9c17-10fc065312ff" />
 
-![alt text](<Screenshot 2026-10-19 191612.png>) 
+<img width="957" height="501" alt="Screenshot 2026-10-19 191612" src="https://github.com/user-attachments/assets/e8f96ed4-51f9-4cbd-b59d-814d737e619e" />
 
-![alt text](<Screenshot 2026-10-19 191619.png>) 
+<img width="959" height="500" alt="Screenshot 2026-10-19 191619" src="https://github.com/user-attachments/assets/c615ea4a-b31b-40d3-837e-d46d8f98f18e" />
 
-![alt text](<Screenshot 2026-10-19 191626.png>)
+<img width="959" height="502" alt="Screenshot 2026-10-19 191626" src="https://github.com/user-attachments/assets/2aa1aaaa-7054-4430-8a11-4d607c3674d6" />
 
 6. Menyimpan dan menampilkan elemen
 
-![alt text](<Screenshot 2026-10-19 191720.png>) 
+<img width="959" height="500" alt="Screenshot 2026-10-19 191720" src="https://github.com/user-attachments/assets/cd9aebdf-d374-406a-bef6-e24af19feedb" />
 
-![alt text](<Screenshot 2026-10-19 191732.png>)
+<img width="958" height="500" alt="Screenshot 2026-10-19 191732" src="https://github.com/user-attachments/assets/6a0c8cd4-83a4-4309-b606-1b2508c36cc8" />
 
 ---
 
@@ -386,18 +386,18 @@ Mini Project menunjukkan bagaimana input pengguna dapat diolah menggunakan funct
 
 Validasi Latihan:
 
-![alt text](<Screenshot 2026-10-19 154706.png>) 
+<img width="937" height="418" alt="Screenshot 2026-10-19 154706" src="https://github.com/user-attachments/assets/70c4e1be-2563-49f8-a41f-dc846889ff7b" />
 
-![alt text](<Screenshot 2026-10-19 154946.png>) 
+<img width="913" height="421" alt="Screenshot 2026-10-19 154946" src="https://github.com/user-attachments/assets/c3d34ad4-8fd3-401b-866e-ee81ea9c613d" />
 
-![alt text](<Screenshot 2026-10-19 155529.png>) 
+<img width="921" height="431" alt="Screenshot 2026-10-19 155529" src="https://github.com/user-attachments/assets/8fd265a1-19a4-402d-ae09-ce6ab8447b4b" />
 
-![alt text](<Screenshot 2026-10-19 155952.png>) 
+<img width="918" height="421" alt="Screenshot 2026-10-19 155952" src="https://github.com/user-attachments/assets/738dd79d-dce4-46fa-b352-463a515bf0ef" />
 
-![alt text](<Screenshot 2026-10-19 160408.png>)
+<img width="909" height="419" alt="Screenshot 2026-10-19 160408" src="https://github.com/user-attachments/assets/5a849b89-dc1e-4a11-b238-c38941e83111" />
 
-![alt text](<Screenshot 2026-10-19 161813.png>) 
+<img width="907" height="422" alt="Screenshot 2026-10-19 161315" src="https://github.com/user-attachments/assets/ce655129-02a1-44fe-9204-7b8716284fc4" />
 
-![alt text](<Screenshot 2026-10-19 161315.png>) 
+<img width="902" height="419" alt="Screenshot 2026-10-19 161418" src="https://github.com/user-attachments/assets/e97989ea-6131-4a52-91b9-b4c6750f61b3" />
 
-![alt text](<Screenshot 2026-10-19 161418.png>)
+<img width="911" height="419" alt="Screenshot 2026-10-19 161813" src="https://github.com/user-attachments/assets/f915d4ae-5f9c-4e5c-8694-2abd6eb18796" />
